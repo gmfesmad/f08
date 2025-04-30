@@ -6,7 +6,7 @@
   "display": "browser",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "https://gmfesmad.github.io/f08/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
