@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HP Manager</title>
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">HP Manager</h1>
+        <div class="box">
+          <h2 class="subtitle">Score</h2>
+          <p id="score">0 x 0</p>
+          <button class="button is-primary" onclick="addGoal('home')">
+            Home Goal
+          </button>
+          <button class="button is-link" onclick="addGoal('away')">
+            Away Goal
+          </button>
+          <button class="button is-info" onclick="shareScore()">
+            Share Score
+          </button>
+        </div>
+        <div class="box">
+          <h2 class="subtitle">Fouls</h2>
+          <p id="fouls">Home: 0, Away: 0</p>
+          <button class="button is-warning" onclick="addFoul('home')">
+            Home Foul
+          </button>
+          <button class="button is-danger" onclick="addFoul('away')">
+            Away Foul
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
